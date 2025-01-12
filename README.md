@@ -41,3 +41,26 @@ Download the dataset [here](https://archive.ics.uci.edu/ml/datasets/Online+Retai
 ---
 
 ## Project Structure
+1. Data Loading
+Load the dataset into a Pandas DataFrame.
+Display the first few rows to understand the structure and features.
+2. Data Cleaning
+Handle missing values, particularly in columns like CustomerID.
+Remove duplicate or unnecessary columns.
+3. Descriptive Analysis
+Compute statistics such as mean, median, and standard deviation.
+Analyze data distributions for key features like Quantity and UnitPrice.
+4. Data Visualization
+Visualize sales trends over time (months and days of the week).
+Identify the top-selling products using bar plots.
+Analyze sales by country to determine geographical hotspots.
+5. Outlier Detection
+Identify anomalies in UnitPrice and Quantity that may indicate errors or unusual transactions.
+6. Insights and Recommendations
+Based on the analysis:
+
+Busiest Months: Identify peak sales months for targeted marketing.
+Best-Selling Products: Optimize inventory for high-demand items.
+High-Value Customers: Target repeat buyers with loyalty programs.
+International Expansion: Focus on countries with high sales for growth.
+Outlier Handling: Investigate and resolve anomalies in transactions.
